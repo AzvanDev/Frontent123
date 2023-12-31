@@ -90,8 +90,8 @@
 :root{
     --bg--: #E0E0E0;
     --bg2--: #E0E0E0;
-    --h1--: #008585;
-    --p--: #00adad;
+    --h1--: #2d2d2d;
+    --p--: #4a4a4a;
     --p2--: #ff6780;
 }
 ul,ol{
@@ -111,7 +111,7 @@ hr.line{
     justify-content: space-between;
 }
 button.arrow{
-    font-family: 'inter-bold';
+    font-family: 'inter-medium';
     display: inline-block;
     border-radius: 100px;
     background-color: #ff99a9;
@@ -173,23 +173,7 @@ button.arrow:hover span:after {
     display: block;
     width: 100%;
 }
-#hero header nav ul{
-    display: flex;
-    justify-content: space-between;
-}
-#hero header nav ul li{
-    margin-right: 40px;
-}
-#hero header nav ul li:last-child{
-    margin-right: 0;
-}
-#hero header nav ul li a{
-    font-family: 'inter-medium';
-    display: inline-block;
-    color: #ff3c5d;
-    font-weight: 700;
-    font-size: 16px;
-}
+
 #hero header div.right ul {
     display: flex;
     justify-content: space-between;
@@ -263,7 +247,7 @@ button.arrow:hover span:after {
     padding-top: 60px;
 }
 #hero .wrapper .left h1{
-    font-family: 'inter-bold';
+    font-family: 'inter-regular';
     font-weight: 700;
     font-size: 53px;
     color: var(--h1--);
@@ -271,7 +255,7 @@ button.arrow:hover span:after {
     margin-bottom: 10px;
 }
 #hero .wrapper .left h5{
-    font-family: 'inter-bold';
+    font-family: 'inter-light';
     font-weight: 700;
     font-size: 25px;
     color: var(--p--);
@@ -388,14 +372,14 @@ button.hero:hover .play {
     padding: 100px 140px;
 }
 #why_donate .wrapper .left h1{
-    font-family: 'inter-bold';
+    font-family: 'inter-light';
     font-size: 35px;
     font-weight: 700;
     color: var(--h1--);
     margin-bottom: 30px;
 }
 #why_donate .wrapper .left p{
-    font-family: 'inter-medium';
+    font-family: 'inter-light';
     font-weight: 700;
     font-size: 17px;
     opacity: 0.7;
