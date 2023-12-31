@@ -106,8 +106,8 @@
     scroll-behavior: smooth;
 }
 :root{
-    --bg--: #ffdee3;
-    --bg2--: #ffe5e9;
+    --bg--: #E0E0E0;
+    --bg2--: #E0E0E0;
     --h1--: #008585;
     --p--: #00adad;
     --p2--: #ff6780;
@@ -174,7 +174,7 @@ button.arrow:hover span:after {
     background: var(--bg--);
 }
 #hero .bg-temp{
-    background: url(../template/hero/images/blob-scene-haikei-removebg-preview.png) no-repeat;
+    background: url(#) no-repeat;
     background-size: 100% 100%;
 }
 #hero header{
