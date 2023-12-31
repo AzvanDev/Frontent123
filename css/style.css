@@ -1,41 +1,23 @@
 @font-face {
     font-family: 'inter-black';
-    src: url(../template/font/static/Inter-Black.ttf);
+    src: url(../template/font/static/Gordita-Black.otf);
 }
 @font-face {
     font-family: 'inter-bold';
-    src: url(../template/font/static/Inter-Bold.ttf);
-}
-@font-face {
-    font-family: 'inter-extra-bold';
-    src: url(../template/font/static/Inter-ExtraBold.ttf);
-}
-@font-face {
-    font-family: 'inter-extra-light';
-    src: url(../template/font/static/Inter-ExtraLight.ttf);
+    src: url(../template/font/static/Gordita-Bold.otf);
 }
 @font-face {
     font-family: 'inter-light';
-    src: url(../template/font/static/Inter-Light.ttf);
+    src: url(../template/font/static/Gordita-Light.otf);
 }
 @font-face {
     font-family: 'inter-medium';
-    src: url(../template/font/static/Inter-Medium.ttf);
+    src: url(../template/font/static/Gordita-Medium.otf);
 }
 @font-face {
     font-family: 'inter-regular';
-    src: url(../template/font/static/Inter-Regular.ttf);
+    src: url(../template/font/static/Gordita-Regular.otf);
 }
-@font-face {
-    font-family: 'inter-semi-bold';
-    src: url(../template/font/static/Inter-SemiBold.ttf);
-}
-@font-face {
-    font-family: 'inter-thin';
-    src: url(../template/font/static/Inter-Thin.ttf);
-}
-
-
 .menu {
     --s: 20px; /* control the size */
     --c: #db0025; /* the color */
@@ -178,7 +160,7 @@ button.arrow:hover span:after {
     background-size: 100% 100%;
 }
 #hero header{
-    padding: 35px 70px;
+    padding: 25px 70px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -202,6 +184,21 @@ button.arrow:hover span:after {
     margin-right: 0;
 }
 #hero header nav ul li a{
+    font-family: 'inter-medium';
+    display: inline-block;
+    color: #ff3c5d;
+    font-weight: 700;
+    font-size: 16px;
+}
+#hero header div.right ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#hero header div.right ul li {
+    margin-right: 40px;
+}
+#hero header div.right ul li a {
     font-family: 'inter-medium';
     display: inline-block;
     color: #ff3c5d;
