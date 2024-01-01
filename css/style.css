@@ -423,106 +423,6 @@ button.hero:hover .play {
     display: block;
     width: 100%;
 }
-
-
-/* #camp */
-#camp{
-    background: var(--bg--);
-}
-#camp .wrapper{
-    padding: 100px 140px;
-}
-#camp .wrapper .left{
-    display: inline-block;
-    width: 110%;
-}
-#camp .wrapper .left img{
-    display: block;
-    width: 100%;
-}
-#camp .wrapper .right{
-    padding-left: 100px;
-    padding-top: 50px;
-}
-#camp .wrapper .right h1{
-    font-family: 'inter-bold';
-    font-weight: 700;
-    font-size: 35px;
-    color: var(--h1--);
-    margin-bottom: 30px;
-}
-#camp .wrapper .right p{
-    font-family: 'inter-medium';
-    font-weight: 700;
-    font-size: 17px;
-    opacity: 0.7;
-    line-height: 1.5;
-    color: var(--p--);
-    margin-bottom: 30px;
-    margin-bottom: 30px;
-}
-#camp .wrapper .right a{
-    display: inline-flex;
-    font-family: 'inter-bold';
-    font-size: 20px;
-    align-items: center;
-    color: #ff3c5d;
-    border-bottom: 2px solid #008585;
-    margin-bottom: 40px;
-}
-#camp .wrapper .right a:hover{
-    transition: all 0.2s ease-in-out;
-    transform: scale(0.95);
-    opacity: 0.6;
-}
-#camp .wrapper .right a span{
-    display: inline-block;
-    width: 30px;
-    margin-left: 5px;
-}
-#camp .wrapper .right a span img{
-    display: block;
-    width: 100%;
-}
-
-
-/* #home_blood */
-#home_blood{
-    background: var(--bg--);
-}
-#home_blood .wrapper{
-    padding: 100px 140px;
-    flex-direction: row-reverse;
-}
-#home_blood .wrapper .left{
-    display: inline-block;
-    width: 180%;
-}
-#home_blood .wrapper .left img{
-    display: block;
-    width: 100%;
-}
-#home_blood .wrapper .right{
-    padding-right: 100px;
-    padding-top: 20px;
-}
-#home_blood .wrapper .right h1{
-    font-family: 'inter-bold';
-    font-size: 35px;
-    font-weight: 700;
-    color: var(--h1--);
-    margin-bottom: 30px;
-}
-#home_blood .wrapper .right p{
-    font-family: 'inter-medium';
-    font-weight: 700;
-    font-size: 17px;
-    color: var(--p--);
-    opacity: 0.7;
-    line-height: 1.5;
-    margin-bottom: 40px;
-}
-
 /* #restrictions */
 #restrictions{
     background: var(--bg2--);
@@ -575,62 +475,6 @@ button.hero:hover .play {
     border-bottom: 2px solid #00adad;
     padding-bottom: 5px;
     margin-bottom: 15px;
-}
-
-/* #medical_team */
-#medical_team{
-    background: var(--bg--);
-}
-#medical_team h1{
-    font-family: 'inter-bold';
-    font-weight: 700;
-    font-size: 35px;
-    width: 45%;
-    color: var(--h1--);
-    margin-bottom: 35px;
-}
-#medical_team .wrapper{
-    padding: 100px 70px;
-}
-#medical_team .wrapper ul{
-    display: flex;
-    justify-content: space-between;
-    /* width: 117%; */
-}
-#medical_team .wrapper ul li{
-    margin-right: 55px;
-}
-#medical_team .wrapper ul li:last-child{
-    margin-right: 0;
-}
-#medical_team .wrapper ul li .image{
-    display: inline-block;
-    height: 350px;
-    margin-bottom: 10px;
-}
-#medical_team .wrapper ul li .image img{
-    display: block;
-    width: 100%;
-    height: 100%;
-}
-#medical_team .wrapper ul li span.name{
-    display: block;
-    font-family: 'inter-bold';
-    font-weight: 700;
-    font-size: 20px;
-    color: #006e6e;
-}
-#medical_team .wrapper ul li h6{
-    font-family: 'inter-medium';
-    font-weight: 700;
-    font-size: 14px;
-    color: #426363;
-    margin-bottom: 10px;
-}
-#medical_team .wrapper ul li p{
-    font-family: 'inter-regular';
-    color: var(--p--);
-    font-size: 15px;
 }
 
 
@@ -733,7 +577,7 @@ footer .wrapper .below ul.card li .social-link3:hover{
 footer .wrapper .below ul.card li .social-link4:hover{
     transition: all 0.2s ease-in-out;
     transform: scale(0.9);
-    background-color: #12a50b;
+    background-color: #59CE72;
 }
 footer .wrapper .below ul.card li a img{
     display: block;
@@ -1184,7 +1028,7 @@ footer .wrapper .below p a{
 
 #about header .content ul li a {
     font-family: 'inter-medium';
-    color: #ff3c5d;
+    color: #FF3C5D;
     font-weight: 700;
     font-size: 16px;
     text-decoration: none;
@@ -1206,7 +1050,7 @@ footer .wrapper .below p a{
 #about #container div.over.active{
     position: absolute;
     height: 500vh;
-    background: rgba(0, 0, 0, 0.6);
+    background: #feeceb;
     top: 0;
     left: 0;
     right: 0;
@@ -1215,7 +1059,7 @@ footer .wrapper .below p a{
 }
 #about #container .content-container{
     width: 80%;
-    background: #ffeded;
+    background: #FEECEB;
     margin-top: -10px;
 }
 #about #container .content-container .wrapper{
@@ -1304,7 +1148,7 @@ footer .wrapper .below p a{
     display: inline-flex;
     padding: 40px;
     width: 45%;
-    background: #ffc1cb;
+    background: #FEECEB;
     border-radius: 6px;
 }
 #about #container .content-container .wrapper .item div.box-container span.box h1.img{
@@ -1322,17 +1166,18 @@ footer .wrapper .below p a{
 #about #container .content-container .wrapper .item div.box-container span.box a.button{
     display: inline-block;
     padding: 10px;
-    color: #6600c3;
-    border: 1px solid #6600c3;
+    color: #2d2d2d;
+    border: 2px solid #f05858;
 }
 #about #container .content-container .wrapper .item div.box-container span.box a.button:hover{
     color: var(--p2--);
     border: 1px solid var(--p2--);
+    transition-delay: 0.2s;
 }
 
 #about .side-bar{
     width: 20%;
-    background: #ffc1cb;
+    background: #FEECEB;
     position: fixed;
     height: 100vh;
     right: 0;
@@ -1390,7 +1235,7 @@ footer .wrapper .below p a{
     opacity: 1;
 }
 #about .side-bar .wrapper ul li a.active{
-    color: var(--h1--);
+    color:#2d2d2d ;
 }
 #about footer{
     z-index: 1;
