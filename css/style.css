@@ -246,6 +246,13 @@ button.arrow:hover span:after {
 #hero .wrapper .left{
     padding-top: 60px;
 }
+
+#hero .wrapper .left img.fr{
+    position: relative;
+    top: 90px;
+    left: 10px;
+}
+
 #hero .wrapper .left h1{
     font-family: 'inter-regular';
     font-weight: 700;
@@ -254,6 +261,7 @@ button.arrow:hover span:after {
     width: 75%;
     margin-bottom: 10px;
 }
+
 #hero .wrapper .left h5{
     font-family: 'inter-light';
     font-weight: 700;
