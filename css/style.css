@@ -622,6 +622,12 @@ footer .wrapper .below p a{
     }
     #hero .wrapper .left h1{
         width: 100%;
+        position: relative;
+    }
+    #hero .wrapper .left h1 div.img{
+        position: absolute;
+        bottom: 0;
+        left: 0;        
     }
     #hero .wrapper .left h5{
         width: 100%;
@@ -1374,4 +1380,3 @@ footer .wrapper .below p a{
         margin-left: 65%;
     }
 }
-footer .item .
